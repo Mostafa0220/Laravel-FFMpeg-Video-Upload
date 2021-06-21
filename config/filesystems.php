@@ -58,7 +58,7 @@ return [
             'driver' => 'local',
             'root' => storage_path('app/public/videos_disk'),
             'url' => env('APP_URL').'/storage/videos_disk',
-            'visibility' => 'public',
+            'visibility' => 'private',
         ],
         'downloadable_videos' => [
             'driver' => 'local',
