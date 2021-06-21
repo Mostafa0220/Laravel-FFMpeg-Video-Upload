@@ -2,7 +2,8 @@
 Laravel Videos Upload using FFMpeg package and render it to different quality.
 After that show the video based on internet speed with the option to choose quality
 
-This project provides an integration with FFmpeg for Laravel 6.0 and higher. [Laravel's Filesystem](http://laravel.com/docs/7.0/filesystem) handles the storage of the files.
+This project provides an integration with FFmpeg for Laravel 6.0 and higher.
+[Laravel's Filesystem](http://laravel.com/docs/7.0/filesystem) handles the storage of the files.
 
 ## Your attention please
 
@@ -14,7 +15,7 @@ Be sure to update the Environment variable 'FFMPEG_BINARIES' & 'FFPROBE_BINARIES
 ## Features
 * I used [laravel-ffmpeg](https://github.com/protonemedia/laravel-ffmpeg)
 * Integration with [Laravel's Filesystem](http://laravel.com/docs/7.0/filesystem).
-*I used three different Filesystem disks. One non-public disk to store the original uploaded video, one public disk to store a low-bitrate version of the video and another public disk to store a HLS export to do HTTP streaming. The names of these disks are videos_disk, downloadable_videos and streamable_videos.
+* I used three different Filesystem disks. One non-public disk to store the original uploaded video, one public disk to store a low-bitrate version of the video and another public disk to store a HLS export to do HTTP streaming. The names of these disks are videos_disk, downloadable_videos and streamable_videos.
 * Built-in support for HLS.
 * Built-in support for encrypted HLS (AES-128) and rotating keys (optional).
 * Built-in support for concatenation, multiple inputs/outputs, image sequences (timelapse), complex filters (and mapping), frame/thumbnail exports.
