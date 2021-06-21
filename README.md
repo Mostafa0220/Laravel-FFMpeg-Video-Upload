@@ -37,7 +37,7 @@ composer install
 # I  use three different Filesystem disks. One non-public disk to store the original uploaded video, one public disk to store a low-bitrate version of the video and another public disk to store a HLS export to do HTTP streaming. The names of these disks are videos_disk, downloadable_videos and streamable_videos.
 php artisan storage:link
 
-# configure your key, database, etc in `.env` file
+# configure your APP_URL, key, database, etc in `.env` file
 php artisan migrate --seed
 php artisan serve
 
